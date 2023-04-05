@@ -7,9 +7,9 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     methods: ['POST'],
     origin: [
       'http://localhost:3000',
-      'https://www.rlabs.xr',
-      'https://rlabs.xr',
-      'https://rlabs-web.vercel.app',
+      'https://www.reminiscelabs.com',
+      'https://reminiscelabs.com',
+      'https://reminiscelabs-web.vercel.app',
     ],
     optionsSuccessStatus: 200,
   });
